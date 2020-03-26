@@ -8,14 +8,7 @@ usage :
     ```
     git clone https://github.com/codev911/idena-autoupdate-node
     ```
-3. Pindahkan file autoupdate.sh ke lokasi node kalian, jika kalian menaruh node kalian di folder `home`, maka dengan cara ini untuk pindah e :
-    ```
-    mv autoupdate.sh /home
-    ```
-  jika ditaruh diluar seperti saya (di folder ketika pertama connect vps, maka gini :
-    ```
-    mv autoupdate.sh ~
-    ```
+3. Pindahkan file autoupdate.sh ke lokasi node kalian
 4. Beri perijinan kepada file `autoupdate.sh` e dengan cara :
     ```
     chmod +x autoupdate.sh
