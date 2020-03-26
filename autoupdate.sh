@@ -1,13 +1,11 @@
 #!/bin/bash
 while true
 do
+	if [ ! -f "tmpver.txt" ]; then
+		echo "tmpver.txt does not exist, creating.."
+		touch tmpver.txt
+	fi
 	check_ver () {
-		FILE=tmpver.txt
-		if [ ! -f "$FILE" ]; then
-			echo "$FILE does not exist, creating.."
-			touch tmpver.txt
-		fi
-
 		local ver_result=$(curl --silent "https://api.github.com/repos/idena-network/idena-go/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 		echo "$ver_result"
 	}
