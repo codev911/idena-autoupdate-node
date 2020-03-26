@@ -8,7 +8,7 @@ usage :
     ```
     git clone https://github.com/codev911/idena-autoupdate-node
     ```
-3. Pindahkan file autoupdate.sh ke lokasi node kalian
+3. Pindahkan file `autoupdate.sh` ke lokasi node kalian
 4. Beri perijinan kepada file `autoupdate.sh` e dengan cara :
     ```
     chmod +x autoupdate.sh
