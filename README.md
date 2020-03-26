@@ -19,3 +19,11 @@ usage :
     ```
 
 NB : untuk melihat aktifitas screen dari auto update tinggal `screen -r idenaauto`, sedangkan ingin mengecheck nodenya jalan apa gk dengan cara `screen -r idenanode`
+
+fix :
+
+1. Jika VPS anda menemukan error seperti `Bash script and /bin/bash^M: bad interpreter: No such file or directory` setelah menjalankan step no 5 , maka convert file `autoupdate.sh` dengan `dos2unix`. Berikut commandnya :
+    ```
+    sudo apt install dos2unix
+    dos2unix -k -o autoupdate.sh
+    ```
