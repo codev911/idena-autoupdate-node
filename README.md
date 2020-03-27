@@ -3,8 +3,8 @@ Ini adalah script untuk auto update node idena untuk vps linux
 
 yg baik hati tlng donasinya hehe :3
 
-DNA : 0xe9633aa9415f76e892991259d0b9b76645729589
-ETH : 0x31938b14d65F708dA5830B791f7c3C9621186Ea8
+DNA => 0xe9633aa9415f76e892991259d0b9b76645729589
+ETH => 0x31938b14d65F708dA5830B791f7c3C9621186Ea8
 
 usage :
 
