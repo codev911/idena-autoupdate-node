@@ -15,8 +15,8 @@ do
 	ver_url=${ver_result//v}
 
 	if [ "$ver_result" == "$ver_now" ]; then
-		echo "updated, recheck again every 10 seconds"
-		sleep 10
+		echo "updated, recheck again every 10 Minutes"
+		sleep 600
 	else
 		echo "${ver_result} detected, updating..."
 		screen -XS idenanode quit
