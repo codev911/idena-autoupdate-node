@@ -28,7 +28,7 @@ do
 		chmod +x idena-node
 		echo "Running new node..."
 		screen -d -m -S idenanode ./idena-node --config=config.json
-		echo "done, recheck again every 10 seconds"
-		sleep 10
+		echo "done, recheck again every 10 minutes"
+		sleep 600
 	fi
 done
