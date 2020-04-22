@@ -27,7 +27,7 @@ do
 		mv idena-node-linux-$ver_url idena-node 
 		chmod +x idena-node
 		echo "Running new node..."
-		screen -d -m -S idenanode ./idena-node --config=config.json
+		screen -d -m -S idenanode ./idena-node
 		echo "done, recheck again every 10 minutes"
 		sleep 600
 	fi
